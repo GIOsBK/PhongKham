@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: arial;
+	font-size: 14px;
+	color: #666;
+}
+#header{
+	background: #17a2b8;		
+}
+#logo, #search, #cart{
+	height: 98px;
+}
+#logo h1{	
+	line-height: 98px;
+}
+#search input{
+	margin-top: 30px;
+	float: left;
+}
+#search input[type=text]{
+	width: 500px;
+	height: 45px;
+	border: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	font-size: 16px;
+	padding-left: 15px;
+	margin-left: 30px;
+}
+#search input[type=submit]{
+	height: 45px;
+	background: #fff;
+	padding: 0 15px;
+	border: none;
+	color: #17a2b8;
+	font-size: 14px;
+}	
+@media (min-width: 768px) {
+	.navbar-form .input-group .form-control,
+	.navbar-form .input-group .input-group-btn{
+		width: 100%;
+	}
+}
+
+
